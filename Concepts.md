@@ -40,3 +40,29 @@
 * To prototype (or class) objects, or not to?
 * Developing more of a runtime model (e.g. a whole system) rather than just a language (e.g. dependency on compiler)
 * AST means nothing is every "compiled" down to machine level, but instead there is a kernel (written or mirrored in itself)
+* JIT compilation upon code edit, or just projectional view/edit? (is this the same thing?)
+* Edit code without breaking closures (like JavaScript fails to do)
+* Instead of hiding things (like closures) or enforcing restrictions (types, access-levels), expose ALL things for maximum potential, and rely on good structure & practice to make things clear
+  * Related: Linda Rising's article; Jane Jacobs (read about apartments on the wiki page)
+* Still generate compiled programs, but a bootstrapped self-contained tool as a better alternative to "source code"
+* No external references in objects (or just in "code"), for better serialization. ("message passing")
+* Runtime execution somehow exists in some inspectable form, so it could be "paused", modifed, serialized, and resumed
+  * Actors that can be sent (or send themselves) across systems, and keep running afterward
+* Distinction between objects and networked computers is diminished
+* Do not get stuck on specific implementation choices if it can be changed later ("worse is better")
+* Code consists of imperative commands rather than declarative statements that must be compiled & analyzed. Declarative entites just "exist" inline.
+* Loosely coupled code -> named references into a "context" object
+* All objects are part of some tree, and the whole system is one tree
+* Separate storage of execution state ("context") from code
+  * Any runtinme operation can derive from just modeling the execution state directly
+  * Continuation Passing Style?
+* Potential of LISP is generally overlooked, and it is used as JUST a programming language
+* Macro-expansion assumes a compilation phase
+* Not a MetaObject Protocol, but a MMOP that is its own MMMOP
+  * Lisp Macro expansion does this because the macro language is the same as the target-languages; and thus you can have macro-macros, etc. Apply this idea to UI & code: if they are "the same thing", then ... voila!
+* No need for an OS
+* Software Archeology: self-contained system that makes its own bootstrapping & running self-evident: http://www.vpri.org/pdf/tr2015004_cuneiform.pdf
+* Software is already its own tool (software makes, edits, and runs software)
+* Stop making programming better for programmers, and make computering better for users (note: have we even discovered what "computer" can mean? Can we open the door to let users do that discovering?)
+* Replace concept of "compile time" with JIT compilation (i.e. compilation on demand at runtime). How is this any different than any other normal code transforming data (especially if code and data are the same)?
+
