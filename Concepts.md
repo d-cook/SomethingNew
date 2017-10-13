@@ -27,3 +27,16 @@
 * Modeling & editing structure as-is, or modeling and editing a generative process and replacing the old thing by regenerating it.
 * Programming via interaction (e.g. capturing operations as steps of UI operations, rather than trying to visualize a "flow" of operations). Idea taken from Bret Victor's "Drawing Dynamic Visualizations".
   * That is, not a flat look-at-it-all-at-once model of exeuction, but a dynamic interactive model for exploring it. Also see Bret Victor's "Media for Thinking the Unthinkable"
+* An entire system composed of objects that can be inspected and manipulated by the user at runtime
+* Alan Kay's concept of objects being a recursion of the notion of "computer"
+  * Object (interface), UI, API ... These are all really the same thing
+* OO is about objects, not about classes (Jim Coplien & DCI)
+* Bootstrapping: compiler/system written in "itself", and can self re-define
+  * Built-in compilers/translators/serializers that can re-compile the system/runtime to another platform, and each compiler "comes with" because it is written in the language of the system. ("Ultron")
+* Automatic JIT compilation, or compiling only key components (which?)?
+* A basic UI substrate from which anything can be put together (like how any structure can be built from the same object-model)
+  * Concept of graphics primitives, or of UI primitives (e.g. boxes), each with their own relative transformations
+* A way to map code (and other things) to custom UIs/views
+* To prototype (or class) objects, or not to?
+* Developing more of a runtime model (e.g. a whole system) rather than just a language (e.g. dependency on compiler)
+* AST means nothing is every "compiled" down to machine level, but instead there is a kernel (written or mirrored in itself)
