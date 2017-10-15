@@ -1,5 +1,5 @@
 # SomethingNew
-Collaboration for reinventing software in human terms
+**Collaboration for reinventing software in human terms**
 
 A group of people inspired by Alan Kay's dynabook vision (and others), similarly seeking a better way of modeling software and programming. Not for nerds, but for *everyone*. (Insert more spiel about inspiration etc.). We have different ideas and approaches, but in the hopes to do something great (as Kay puts it, "stand on the shoulders of giants"), we are sharing our ideas, projects, and goals here.
 
@@ -20,3 +20,5 @@ Here it all is:
   These are our own projects related to our goals, and/or other related projects
 
 (TODO: Should we have anything else? Ideas: discussion (or individual discussion topics), ideas or notes for how to manage this collaboration, ...?)
+
+(TODO: Should we add pictures and color to this stuff? It would be ironic not too, I suppose)
