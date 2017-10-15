@@ -13,3 +13,7 @@ These are things we wish to accomplish with this (and related) project(s), or pr
   * Exploring many avenues relates to this
 * Gather as much information as possible (stand on the shoulders of giants)
 * Breaking new ground versus making a "better version" of something that already exists (New vs News)
+* Ad-hoc "clay-like" manipulation & creation of software & data by the end user through a UI, versus traditional coding.
+* Break away from any "set-in-stone" tool by making tools that are their own live-editors
+  * Such a system has to be composed (or mappable to/from) the kind of data / blocks that it is an editor for.
+  * Ian Piumarta's "Creme Brulee" analogy
