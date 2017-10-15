@@ -65,4 +65,10 @@
 * Software is already its own tool (software makes, edits, and runs software)
 * Stop making programming better for programmers, and make computering better for users (note: have we even discovered what "computer" can mean? Can we open the door to let users do that discovering?)
 * Replace concept of "compile time" with JIT compilation (i.e. compilation on demand at runtime). How is this any different than any other normal code transforming data (especially if code and data are the same)?
+* Editing a feature in a software tool makes that feature *immediately* available (take affect) within the tool, rather than rebuilding a new artifact from edited code.
+* "Restricted OO" (see http://fulloo.info)
+* Making software componentized/modular is only meaningful if the abstractions are whole and proper. And if they are, then the composability becomes more than just a nice property of source code, but something that can be exposed to the end-user through a UI at runtime (drag-and-drop software composition through a UI)
+* If all objects have a UI metaphor, then maybe you don't need a UI for everything? It's like a UI equivalent of a command-prompt? (API x UI = AUI?)
+* A "Grammar" of visual (and behavioral) pieces, and not just textual "language". (Expand this idea to "macros"?)
+* Embedded DSLs and interpreters within existing ones, but all running at the "root" level
 
