@@ -7,17 +7,13 @@ A group of people inspired by Alan Kay's dynabook vision (and others), similarly
 
 Here it all is:
 
-* [Concepts](https://github.com/d-cook/SomethingNew/blob/master/Concepts.md)
-  Ideas about implementing stuff
+* [Concepts](https://github.com/d-cook/SomethingNew/blob/master/Concepts.md) - Ideas about implementing stuff
 
-* [Goals](https://github.com/d-cook/SomethingNew/blob/master/Goals.md)
-  Various things that we hope to improve or achieve
+* [Goals](https://github.com/d-cook/SomethingNew/blob/master/Goals.md) - Various things that we hope to improve or achieve
 
-* [Resources](https://github.com/d-cook/SomethingNew/blob/master/Resources.md)
-  Related materials (papers, videos, etc.) to these topics. This can be examples, inspirations, etc.
+* [Resources](https://github.com/d-cook/SomethingNew/blob/master/Resources.md) - Related materials (papers, videos, etc.) to these topics. This can be examples, inspirations, etc.
 
-* [Projects](https://github.com/d-cook/SomethingNew/blob/master/Projects.md)
-  These are our own projects related to our goals, and/or other related projects
+* [Projects](https://github.com/d-cook/SomethingNew/blob/master/Projects.md) - These are our own projects related to our goals, and/or other related projects
 
 (TODO: Should we have anything else? Ideas: discussion (or individual discussion topics), ideas or notes for how to manage this collaboration, ...?)
 
