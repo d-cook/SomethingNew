@@ -15,6 +15,8 @@ Here it all is:
 
 * [Projects](https://github.com/d-cook/SomethingNew/blob/master/Projects.md) - These are our own projects related to our goals, and/or other related projects
 
+* [Discussion](https://github.com/d-cook/SomethingNew/tree/master/Discussion) - Includes forum-like discussion of topics, and email conversations that lead up to this collaboration (there are some gems in there).
+
 (TODO: Should we have anything else? Ideas: discussion (or individual discussion topics), ideas or notes for how to manage this collaboration, ...?)
 
 (TODO: Should we add pictures and color to this stuff? It would be ironic not too, I suppose)
