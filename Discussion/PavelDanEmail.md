@@ -2,7 +2,7 @@
 
 ----
 
-Pavel Bažant <pbazant@gmail.com>
+Pavel Bažant
 <br/>30 July 2017
 
 Your list of sources is awesome! It looks like your list goes beyond the particular flavour of innovation that resonates in the FoNC community. In particular, you mention the Intentional Domain Workbench and the Meta Programming System, the latter of which I am a huge fan of!
@@ -15,7 +15,7 @@ Could you briefly describe your project?
 
 ----
 
-Dan Cook <dcook0819@gmail.com>
+Dan Cook
 <br/>3 October 2017
 
 Sorry for the delay. It's hard to describe what I'm making, mainly because: (1) I am less interested in creating a specific software tool or language, and more interested in the kind of process (for making & manipulating software & data) that comes out of it; (2) whatever system or tool I create is meant to be able to reshape itself into something else entirely, so whatever I start with is just a stepping stone; and (3) this is somewhat of an experiment to see what kind of system or abilities can come out of this...process.
@@ -42,7 +42,7 @@ I sincerely hope that this correspondence goes somewhere meaningful; thanks for 
 
 ----
 
-Dan Cook <dcook0819@gmail.com>
+Dan Cook
 <br/>5 October 2017
 
 Thanks for the reply! Just a quick answer for now(will go into more detail later): I agree that what is needed is a substrate/a set of substrates that is so flexible that it is able to replace itself continuously (this is already the case today, but only in a very limited sense). e-mail is fine for me as a communication medium. We could also discuss over Skype or Google Talk/Hangouts. What you write is extremely interesting. I, too, consider my project a kind of stepping stone, but without such stepping stones it is very hard to make progress.
@@ -51,7 +51,7 @@ BTW, could you elaborate on the weaknesses of MPS? Not technical ones, of course
 
 ----
 
-Dan Cook <dcook0819@gmail.com>
+Dan Cook
 <br/>6 October 2017
 
 I feel this response will be very disorganized, so I'll just spit out my thoughts in no particular order:
@@ -106,7 +106,7 @@ I think that creating a place to capture such views and points from myself and o
 
 ----
 
-Pavel Bažant <pbazant@gmail.com>
+Pavel Bažant
 <br/>7 October 2017
 
 Most of what you write seems pretty obvious to me:-), but only thanks to the fact that I contemplated these very questions in the last say 5-7 years a lot, and "unlearned" a lot of prior "knowledge" along the way. I will intersperse my comments into your observations.
@@ -172,7 +172,7 @@ I think it is easier to "persuade" other people by showing them working demos th
 
 ----
 
-Dan Cook <dcook0819@gmail.com>
+Dan Cook
 <br/>10 October 2017
 
 Some replies to your replies:
