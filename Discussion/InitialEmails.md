@@ -1,3 +1,7 @@
+*Selections from the initial email thread (in response to the VPRI "Fonc" email-list being decommissioned) which spurred the creation of this initiative.*
+
+----
+
 Kim Rose <kim.rose@vpri.org>
 <br/>24 July 2017
 
@@ -198,7 +202,3 @@ On the other hand, I've found an applicable reason for such a tool at work, for 
 I fully agree with the need to implement a system at the lowest level possible, but I've started in JavaScript because it will give me a fast POC, and because I believe that the code within such a system MUST be homoiconic, like Lisp. (JavaScript is not, but it gives me ad-hoc lists and objects for free). Plus, I can just pop open any browser and BOOM. But yes, ultimately I want a system to run on the metal.
 
 There is more I could say, but let's find a better place to collaborate first
-
-----
-
-(TODO: add the remaining emails from this thread)
