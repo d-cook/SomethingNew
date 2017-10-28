@@ -1,4 +1,4 @@
-*(Abridged) Conversation between Pavel & Dan in response to the Fonc-decommission email.*
+*(Abridged) Conversation between Pavel & Dan (in response to the Fonc-decommission email) regarding this collaboration ideas.*
 
 ----
 
