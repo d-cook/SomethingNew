@@ -2,7 +2,7 @@
 
 ----
 
-Kim Rose <kim.rose@vpri.org>
+Kim Rose
 <br/>24 July 2017
 
 Dear "fonc" community,
@@ -20,7 +20,7 @@ Fonc mailing list
 
 ----
 
-Kim Rose <kim.rose@vpri.org>
+Kim Rose
 <br/>24 July 2017
 
 No, sorry…..I suppose if someone in the community wanted to start something up they’d be more than welcome.  Activity had dropped to almost nothing in the past year…..
@@ -31,12 +31,12 @@ No, sorry…..I suppose if someone in the community wanted to start something up
 
 ----
 
-Dave Crossland <dave@lab6.com>
+Dave Crossland
 <br/>24 July 2017
 
 Hi
 
-> On 24 July 2017, Kenny Friedman <ksf@mit.edu> wrote:
+> On 24 July 2017, Kenny Friedman wrote:
 >
 > Even with the low volume output, the occasional postings (and people on this list) can still be a valuable resource.
 > <br/>If people are willing, I will happily host this mailing list at MIT (email is free, and will last... far longer than Slack).
@@ -49,11 +49,7 @@ Kim, is there a similar way to keep in touch with the latest developments of VPR
 
 ----
 
-*(Kim never replied)*
-
-----
-
-joel.jakubovic <joel.jakubovic@cantab.net>
+Joel Jakubovic
 <br/>29 July 2017
 
 You leave the rather intriguing comment that
@@ -76,7 +72,7 @@ It's a shame that there's not been much activity in 2016 and 17 - but from
 
 ----
 
-Yoshiki Ohshima <Yoshiki.Ohshima@acm.org>
+Yoshiki Ohshima
 <br/>29 July 2017
 
 There will be some more news in the near future, but I can tell you
@@ -86,7 +82,7 @@ There will be some more news in the near future, but I can tell you
 
 ----
 
-Eugene Wallingford <wallingf@cs.uni.edu>
+Eugene Wallingford
 <br/>29 July 2017
 
 The web home is: http://harc.ycr.org  The set of researchers
@@ -96,7 +92,7 @@ The web home is: http://harc.ycr.org  The set of researchers
 
 ----
 
-Dan Cook <dcook0819@gmail.com>
+Dan Cook
 <br/>29 July 2017
 
 Hi all,
@@ -121,7 +117,7 @@ Examples:
 
 ----
 
-joel.jakubovic <joel.jakubovic@cantab.net>
+Joel Jakubovic
 <br/>30 July 2017
 
 Interested? Absolutely. I recognise the Lively Kernel, and I found Bret
@@ -180,7 +176,7 @@ I suppose I can always go back to this whenever I need a chill down the
 
 ----
 
-Dan Cook <dcook0819@gmail.com>
+Dan Cook
 <br/>31 July 2017
 
 First things first: I suggest we find a place to host collaborative materials and discussion. It's probably more important to have somewhere soon than to have somewhat perfect (we can fix that later)
