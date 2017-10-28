@@ -25,7 +25,7 @@ Kim Rose
 
 No, sorry…..I suppose if someone in the community wanted to start something up they’d be more than welcome.  Activity had dropped to almost nothing in the past year…..
 
-> On 25 July 2017, Andrey Fedorov <me@anfedorov.com> wrote:
+> On 25 July 2017, Andrey Fedorov wrote:
 >
 > How unfortunate! Is there at least a Slack channel to replace it?
 
