@@ -297,7 +297,7 @@ Joel had some good questions about this collaboration and the "SomethingNew" Git
 ----
 
 Jecel Assumpcao Jr.
-17 October 2017
+<br/>17 October 2017
 
 Dan,
 
