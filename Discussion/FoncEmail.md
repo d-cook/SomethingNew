@@ -198,3 +198,120 @@ On the other hand, I've found an applicable reason for such a tool at work, for 
 I fully agree with the need to implement a system at the lowest level possible, but I've started in JavaScript because it will give me a fast POC, and because I believe that the code within such a system MUST be homoiconic, like Lisp. (JavaScript is not, but it gives me ad-hoc lists and objects for free). Plus, I can just pop open any browser and BOOM. But yes, ultimately I want a system to run on the metal.
 
 There is more I could say, but let's find a better place to collaborate first
+
+----
+
+Dan Cook
+<br/>14 October 14 2017
+
+Following the announcement that the VPRI FONC list would be discontinued,  some of you expressed interest in collaborating related projects & ideas.
+
+To that end (and in response to some further discussion I've had with some of you), I've created the following GitHub project as a place to collect & document various ideas, concepts, goals, resources, and projects:
+
+https://github.com/d-cook/SomethingNew
+
+The idea is to combine our thoughts, efforts, and resources in the hopes of either (1) finding a common goal/project and collaborating to make something better than an individual effort would yield, and/or (2) supplementing our own individual pursuits by building on each other's ideas and works. One main idea is to explore multiple avenues (projects) at once, rather than trying to find or define "the one best way". This applies both to separate projects or ideas, and exploring (branching) common projects / ideas to explore multiple possibilities.
+
+Currently, the content is rather sloppy and comes from scraping thoughts & goals from some discussion I've had here, and from my own project(s); but I plan to refine it (my aim to is to "get it all out there" first, and then refine it into smaller more coherent main ideas later). I plan to add a bunch of links to related resources shortly, so watch for that. ANYONE IS WELCOME TO FREELY CONTRIBUTE. Since it's a GitHub "project", it has history of all changes, so should the case arise that we disagree with the format or content, we can always review and discuss it; and I mention this as a way to encourage you to be fearless in adding or refining anything present.
+
+I have high hopes for what we can achieve & share together, and for this GitHub project page as a more transparent & clear way (moreso than an email list) to do that.
+
+----
+
+Brendan G Bohannon
+<br/>15 October 2017
+
+Not sure if relevant, but a few things I had worked on in the past few years.
+
+I have ended up focusing a lot more on the technical side of things than the user-facing side of things, so, yeah, maybe not all that relevant.
+
+BGBTech2: ... a 3D engine ...
+<br/>https://cr88192.github.io/bgbtech_html/deeptail0.html
+
+BGBScript2: a language originally meant for some personal embedded/robot projects ...
+<br/>https://github.com/cr88192/bgbtech_engine2/wiki/BGBScript2-1
+
+(I have some robotics stuff, but would prefer to keep a lot of this code private, and the code isn't likely to be terribly useful).
+
+Codecs: BTIC1H and BTIC4B, mostly low-complexity image/video codecs ...
+
+BGBCC: ... an old C compiler of mine ... a previous version targeted a VM used in my robot projects (which BGBScript2 was intended to replace) ...
+
+BJX1: ... sort of a custom ISA, mostly based on an extended form of the SH4 ISA (Hitachi SuperH)
+<br/>https://github.com/cr88192/bgbtech_shxemu/wiki/SH-BJX1-ISA
+<br/>https://github.com/cr88192/bgbtech_shxemu/wiki/BJX1_IsaDesc
+
+...
+
+Would be nice is CPUs were more open though, like if there were more freedom for people to tinker and customize stuff (vs always treating them as black boxes controlled by some central authority).
+
+There is also RISC-V, which seems promising, but I haven't looked into it all that too deeply.
+
+...
+
+----
+
+Dan Cook
+<br/>16 October 2017
+
+... It is pretty awesome that you're making custom hardware to solve software problems, so thanks for sharing!
+
+Anyway, **while I do want to be liberal about what is shared, I want to limit it to reinventing software (and hardware) to enable fundamentally new ways of thinking and doing**; the computer revolution that "hasn't happened yet", as Kay says. (TODO: Need to add a similar statement to the SomethingNew readme)
+
+However, it might be beneficial to see everyone's past/present projects. I wonder if it would be beneficial to create somewhat of a profile page (or link to one) for each person, even if very informal and brief (e.g. stated interest, experience, and list of projects or whatever). ... though perhaps that's redundant, since we can already view each other's github accounts to see bio & personal projects. But maybe that's also not the same; but I do want to keep the collaboration material related to the main (or related) initiative(s).
+
+----
+
+Dan Cook
+<br/>16 October 2017
+
+Hi all,
+
+Joel had some good questions about this collaboration and the "SomethingNew" GitHub project, and since our discussion was quite relevant, I'm sharing it (with his permission) with the rest of you, below:
+
+[Dan] That's a great looking Blog; and I'm very interested in what you have to say (assuming that's all yours?) in that "Language isn't everything" entry (will read later). **I think it's great for anyone to keep up their own personal stuff (projects, blogs, etc.), and we can talk about the best way to link to our personal stuff**. Perhaps it would be good to create a new page with links to forum topics or blogs (or blog entries) that are relevant, or upon which we are discussion some of these things. And/or maybe we can create an ad-hoc forum (a folder, and each file in it being an ongoing discussion. The change-history will show who contributed what & when, and any edits)
+
+[Dan] As to be a Fonc successor ... I guess that's arguably true. I mean, the mail-list is certainly where the people are originating from; but whether it's "that" or a different "thing" that was spurred from it ... I don't know which is technically accurate, or what we should or should not claim (I mean, I am not Fonc or VPRI; but arguable "we" are? I don't know) ... But whatever, it is what it is, and I just care about making this current thing a "thing". Maybe it's best to not claim another other than that we came together from the Fonc mailing-list.
+
+> [Joel] By the way, I worry about accidental plagiarism on my part, which is one
+> reason I've been avoiding reading your code, as if it were some sort of
+> patent. But as Alan Kay once said, something like (can't find the quote):
+> it's better to collaborate to achieve great things rather than trying to
+> decide who did what first etc. So it's probably a silly thing to worry
+> about right? (Forgive my naiveté -- I'm fresh out of university.)
+
+[Dan] It's not silly to worry about that in general; but yes, **my main goal is to make things happen, and sharing openly is the best (and perhaps only) way to get something big and meaningful to happen** (I actually made a statement about this on my very first post on the topic at Cemetech: https://www.cemetech.net/forum/viewtopic.php?t=11080). We can worry about legal stuff if this goes anywhere big, and even then I'd prefer to make that bubble as inclusive as makes sense. But I think we are a long ways out from that point, and until then, I hope we can all feel free to borrow & share liberally from each other to the end of making something work.
+
+[Dan] Fresh out of University ... Excellent! That means (1) You are the right person for this, if you're this interested/involved at this point (nice blog!), and (2) Less preconcieved ideas or stuff that you have to unlearn. I tell you, it's been a pain (and almost a lost cause) to try to discuss any truly "new" stuff with any of my more seasoned (I'm a Software Engineer of 5 years now), because they've already got it "figured out", or are content with their perception of their field, and not interested in challenging it.
+
+> [Joel] Finally, we might want to think about a name for the mission as a whole,
+> for convenience. Like FoNC. No ideas from me yet though.
+
+[Dan] Maybe. I don't know how I feel about claiming to be "Fonc" (though it's discontinued). "Worse is Better", so I just called it something at all (SomethingNew) ... If this goes anywhere meaningful, this will be something more important to discuss. 
+
+> [Joel] Once again, thanks for taking the initiative here. I look forward to being
+> a part of this; it feels extremely important, though sadly unknown.
+
+[Dan] Hopefully, we can work together to convert a lot of thinking into doing. Though an explosion of thought is probably on the menu to start with (and going forward), and that's one of the main goals. Let's see what our combined heads can do to find the "pink plane" (and "pink thoughts") as possible (see ... almost any of Alan Kay's videos on YouTube for the reference. Look for "New" vs "News").
+
+----
+
+Jecel Assumpcao Jr.
+17 October 2017
+
+Dan,
+
+In the past there have been projects that have attracted people with
+similar ideas and ended up with interesting discussions even if the
+groups efforts were never combined into a single project. That was
+certainly the case for Tunes OS, which is still a source of related
+information:
+
+http://tunes.org/cliki/
+
+A wiki or a shared document on Github is a great way to accumulate
+information in a way that can be accessed by new people joining the
+project, but it should be complemented by a mailing list or something
+like Slashdot or Hacker News, with the best example being:
+
+http://lambda-the-ultimate.org/
