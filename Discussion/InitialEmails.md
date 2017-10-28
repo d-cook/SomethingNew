@@ -168,9 +168,9 @@ In the same way that the Piumarta and Warth devised the Id object model to
 Finally, I just wanted to mention the ominous message on the FONC wiki:
 
 > We are faced with a need for significant action and the odds are stacked
-> against us. Invention receives no attention, and innovation (even when
-> incorrectly understood) receives lip service in the press but no
-> current-day vehicle exists to to nurture it.
+> <br/>against us. Invention receives no attention, and innovation (even when
+> <br/>incorrectly understood) receives lip service in the press but no
+> <br/>current-day vehicle exists to to nurture it.
 
 I suppose I can always go back to this whenever I need a chill down the
 <br/>spine and a sense of pressing urgency in life! Anyone else wonder if, at
