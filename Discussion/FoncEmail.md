@@ -1,4 +1,4 @@
-*Selections from the initial email thread (in response to the VPRI "Fonc" email-list being decommissioned) which spurred the creation of this initiative.*
+*Selections from the initial email thread (in response to the VPRI "Fonc" email-list being decommissioned) which spurred the creation of this collaboration / initiative.*
 
 ----
 
