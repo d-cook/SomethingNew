@@ -71,4 +71,6 @@
 * If all objects have a UI metaphor, then maybe you don't need a UI for everything? It's like a UI equivalent of a command-prompt? (API x UI = AUI?)
 * A "Grammar" of visual (and behavioral) pieces, and not just textual "language". (Expand this idea to "macros"?)
 * Embedded DSLs and interpreters within existing ones, but all running at the "root" level
+* Instead of using macros to convert from a good representative to an obscure one, choose a good underlying representation to begin with, and a good UI tool for showing & editing it (see "Magic Ink"). The underlying representation can be flexible by allowing context-specific evaluators.
+* There is a way to do this "stuff" and / or create other powerful software tools and engines, WITHOUT a huge pile of frameworks and lots of very specific complicated parts. Once we make such a system, we may be able to find a minimal set of patterns and process that would allow anyone to" bootsrap" almost anything on almost any system, from almost nothing.
 
