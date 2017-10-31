@@ -73,4 +73,4 @@
 * Embedded DSLs and interpreters within existing ones, but all running at the "root" level
 * Instead of using macros to convert from a good representative to an obscure one, choose a good underlying representation to begin with, and a good UI tool for showing & editing it (see "Magic Ink"). The underlying representation can be flexible by allowing context-specific evaluators.
 * There is a way to do this "stuff" and / or create other powerful software tools and engines, WITHOUT a huge pile of frameworks and lots of very specific complicated parts. Once we make such a system, we may be able to find a minimal set of patterns and process that would allow anyone to" bootsrap" almost anything on almost any system, from almost nothing.
-
+* Object-Oriented CPU. Fundamental object-operations (get, set, delete, etc) are supported by hardware. Imagine something like JavaScript running on bare metal, and all the layers of software that would cut out. This could potentially be much more efficient than traditional statically-typed compiled languages.
