@@ -18,6 +18,7 @@
   * [The Future of Programming](http://worrydream.com/TheFutureOfProgramming)
   * [The Humane Representation of Thought](http://worrydream.com/TheHumaneRepresentationOfThoughtTalk)
   * [The Ladder of Abstraction](http://worrydream.com/LadderOfAbstraction)
+  * [The Early History of SmallTalk](http://worrydream.com/EarlyHistoryOfSmalltalk/)
 
 * [Alan Kay - The Future Doesn't Have to be Incremental](https://youtu.be/gTAghAJcO1o)
 * [Alan Kay - The Computer Revolution Hasn't Happened Yet](https://youtu.be/oKg1hTOQXoY)
