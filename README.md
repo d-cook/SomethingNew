@@ -1,9 +1,11 @@
 # SomethingNew
 **Collaboration for reinventing software in human terms**
 
-A group of people inspired by Alan Kay's dynabook vision (and others), similarly seeking a better way of modeling software and programming. Not for nerds, but for *everyone*. (Insert more spiel about inspiration etc.). We have different ideas and approaches, but in the hopes to do something great (as Kay puts it, "stand on the shoulders of giants"), we are sharing our ideas, projects, and goals here.
+This is a place to share ideas & efforts for reinventing software (computers) to enable [fundamentally new ways](www.vpri.org/html/work/ifnct.htm) of thinking & doing. This in pursuit of the Alan Kay's "[Computer Revolution (that) hasn't happened yet](https://youtu.be/oKg1hTOQXoY)", with added inspiration from the likes of [Bret Victor](http://worrydream.com/). A secondary goal is to address the [awful state of software](https://www.technologyreview.com/s/401594/why-software-is-so-bad/) (buggy, complex, unpredictable) caused by the widespread failure to view & produce software in HUMAN terms (rather than in nerd-centric mechanistic terms that have nothing to do with the human model).
 
-(TODO: say this all better)
+The best (and perhaps only) way for this to happen is to share openly and explore multiple possibilities (Alan Kay: "Stand on the shoulders of giants"). This project will thus primarily serve as a place to collaborate *between* multiple separate proejcts/efforts, with the goal of listing all related concepts & goals in one common place to maximize the exploration of ideas (and goals to aim for). We thus discourage trying to agree on "one way" of doing things, and want to try to recognize and foster all possible views, values, approaches, etc.
+
+This collaboration formed in response to [VPRI](http://www.vpri.org/) deciding to [disban the "Fonc" mailing list](https://github.com/d-cook/SomethingNew/blob/master/Discussion/FoncEmail.md), which had similar goals. Several of us had been doing our own research and/or projects in the dark, and we've resolved to publically share as much as possible to maximize the odds of finding & accomplishing the most meaningul thing(s).
 
 Here it all is:
 
