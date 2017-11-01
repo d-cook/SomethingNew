@@ -56,3 +56,5 @@
 * [MIT Tech Review - Why Software Is So Bad](https://www.technologyreview.com/s/401594/why-software-is-so-bad/])
 
 * ["What To Know Before Debating Type Systems"](http://blog.steveklabnik.com/posts/2010-07-17-what-to-know-before-debating-type-systems)
+
+* [Listerator - How to Implement a Programming Language in JavaScript](http://lisperator.net/pltut/)
