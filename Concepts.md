@@ -4,7 +4,7 @@
 * Software (tools) that can evolve or be reshaped into something new or different at will (by the end-user)
 * The software tool is its own live-editor. Feature-edits take affect (become usable) *immediately* (no "rebuild")
 
-## Everything as Objects
+### Everything as Objects
 * Alan Kay's concept of objects being a recursion of the notion of "computer"
 * Code is stored as an object-graph (AST), rather than as text
   * Code can be generated & manipulated at runtime (by the user, or programmatically)
@@ -15,7 +15,7 @@
   * A single universal tool for viewing and editing everything, if everything has the same structure
   * All objects in all contexts are part of the same "tree", with the "root" being the entire system
 
-## Message Passing
+### Message Passing
 * Alan Kay's concept of objects being a recursion of the notion of "computer"
 * Operations between objects (code) are all "messages"
 * "Strong references" are avoided, to decouple objects from each other / from the system
