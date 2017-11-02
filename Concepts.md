@@ -7,6 +7,8 @@
 ### Everything as Objects
 * Alan Kay's concept of objects being a recursion of the notion of "computer"
 * Code is stored as an object-graph (AST), rather than as text
+  * Working directly with the intended model (AST), rather than a (poor) *representation* of it
+    * No more need for parsing or a "parsable grammar"
   * Code can be generated & manipulated at runtime (by the user, or programmatically)
 * "Strong sense of identity" - Entities referenced directly instead of by name.
   * Makes remaning & refactoring trivial
@@ -22,17 +24,18 @@
   * Makes serialization & "rehydration" of objects & code more straightforward
 * Blurs the distinction between communicating objects and networked computers
 
+### Stepping Stones ("Worse is Better")
+* "Everything as Objects": Bootstrap a minimal implementation from which something better can be made
+  * Initial decision decisions don't matter much if they can be made easily (fluidly) changeable
+
 ----
 
 *Everything above has been refined & organized. Everything below has yet to be.*
 
 ----
 
-### Bootstrap a minimum implementation from which something better can be made (e.g. some initial design decisions dont matter if they can be made fluid)
 ### Blurring the line between compile-time and runtime execution, script and executable, meta and non-meta.
 ### Blurring the line between programming (code) and user interaction (UI)
-### Working directly with the intended model (e.g. AST or nodes of entities), rather than a *representation* of it (e.g. textual code)
-  * No need for parsing
 ### Not imposing a prescriptive way of doing things (e.g. programming language, code frameworks, set-in-stone UI, etc.)
 ### Instead of many different things with different interfaces and specifications, have fewer general things.
   * An AST structure can model both code & data, but also (for example) files & folders, or settings.
