@@ -49,6 +49,7 @@
 * Fewer "different kinds" of things, and more general (and simpler) common things / representations / tools
   * Simple underlying structure for representing many things ("Everything as Objects")
 * Context-based decisions, behaviors, language, UI, etc. rather than prescribing "one for all" ("Self-Ownership")
+* Make OO about objects again, rather than about classes (like [Self](https://en.wikipedia.org/wiki/Self_(programming_language)))
 
 #### Respect the Human Model
 * Related to "Trade Restrictions for Open-ness"
