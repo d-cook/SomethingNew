@@ -11,3 +11,4 @@ Others:
 * [JetBrains MPS](https://www.jetbrains.com/mps/)
 * [Lively Kernel](https://www.lively-kernel.org/)
 * [Peter Rogers "Resource Oriented Programming"](https://youtu.be/1O8PwkXfDJg)
+* [Kano Computer Kit](https://kano.me/store/us/products/computer-kit)
