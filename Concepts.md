@@ -8,6 +8,13 @@
 * "Strong References": Entities (in code) are referenced directly rather than by name. Changes to the entity (e.g. rename) are immediately reflected (transparaent) everywhere that the entity is used.
 * Ability to edit code (at runtime) without breaking context (e.g. JavaScript closures are broken when functions are edited)
 
+#### Self-Ownership
+* Abstract: Software entities define their own creation, language, UI, editor, etc. in a self-evident way
+* The software tool is its own live-editor, and can be insected and modified in place (without "rebuilding")
+* Surprising that this is not already common, since the tool for making & editing software is ... ***software***
+* Bootstrapping: compiler/system that is written in "itself", and can self re-define
+* System with built-in compiler / translator / serializer that can re-compile the system/runtime to another platform, and each compiler "comes with" because it is written in the language of the system. ("Ultron")
+
 #### Everything as Objects
 * Alan Kay: objects as a recursion of the notion of "computer"
 * Everything (code, data, UI, runtime) is made of nestable "objects" that can be inspected and modified in place
@@ -16,6 +23,7 @@
   * Code is manipulated directly in [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) form, rather than [Parsed](https://en.wikipedia.org/wiki/Parsing#Computer_languages) from text.
   * Code can be generated & manipulated directly at runtime (by the user, or programmatically)
 * A universal tool can be used to view and edit everything, since it all shares a common representation
+* An AST structure can model both code & data, but also (for example) files & folders, or settings.
 
 #### Message Passing
 * Operations between objects (code) are all "messages"
@@ -27,16 +35,15 @@
 * "Everything as Objects": Bootstrap a minimal implementation from which something better can be made
   * Initial decision decisions don't matter much if they can be made easily (fluidly) changeable
 
-#### Fewer Kinds of Things
-* Fewer "different kinds" of things, and more general (and simpler) common things / representations / tools.
-* An AST structure can model both code & data, but also (for example) files & folders, or settings.
-
-#### Fewer / Looser Restrictions
-* Instead of hiding things (like closures) or enforcing restrictions (types, access-levels), expose ALL things for maximum potential, and rely on good structure & practice to make things clear
+#### Trade Restrictions for Open-ness
 * Related [Resources](https://github.com/d-cook/SomethingNew/blob/master/Resources.md): Linda Rising; Jane Jacobs
-* Dynamic structure/language versus static (i.e. structure is implicit rather than "stripped away" or held to a rigid calculus)
-* Be aware of pre-mature optimization that makes decisions (or sets things in stone) too early
-  * There are always techniques to overcome inefficiencies, such as caching of lookups.
+* Not imposing a prescriptive way of doing things (e.g. programming language, code frameworks, set-in-stone UI, etc.)
+* Instead of hiding things (like closure contexts) or enforcing restrictions (static types, access-level modifiers), expose ALL things for maximum potential, and rely on good structure & practice to make things clear
+* Late bound & Dynamic- instead of static-typing (i.e. structure is implicit rather than "stripped away" or held to a rigid calculus)
+* Avoid pre-mature optimizations that make decisions / set things in stone too early
+* Fewer "different kinds" of things, and more general (and simpler) common things / representations / tools.
+* Simple underlying structure for representing many things ("Everything as Objects")
+* Context-based decisions, behaviors, language, UI, etc. rather than prescribing "one for all" ("Self-Ownership")
 
 ----
 
@@ -46,7 +53,6 @@
 
 #### Blurring the line between compile-time and runtime execution, script and executable, meta and non-meta.
 #### Blurring the line between programming (code) and user interaction (UI)
-#### Not imposing a prescriptive way of doing things (e.g. programming language, code frameworks, set-in-stone UI, etc.)
 #### Projectional editing
 #### Simplicity over complexity
 #### Simplicity of underlying structure, or of mechanism for creating it? Maybe there should be no (or little) distinction between the two
@@ -54,14 +60,11 @@
 #### Think of programming language as a way to specify a program using a grammar. What if instead of a grammar, you used an API to create program constructs and make API calls to manipulate, validate, and build it? It would be very easy to extend however you like. Also, extend this idea to UI
 #### Specify structure, or specify process that generates structure?
 #### Rather than depending on separate things (programming language, IDE, editor, etc.), each piece of software should be its own self-contained tool for doing all this, capable of editing its own "language"/compiler (if relevent), UI, etc.
-#### Making decisions (or allowing them to be made) based on context. (Context-dependent language, UI, etc; software that works a certain way that's best for itself, rather than trying to choose a prescriptive way to "do everything")
 #### Modeling & editing structure as-is, or modeling and editing a generative process and replacing the old thing by regenerating it.
 #### Programming via interaction (e.g. capturing operations as steps of UI operations, rather than trying to visualize a "flow" of operations). Idea taken from Bret Victor's "Drawing Dynamic Visualizations".
   * That is, not a flat look-at-it-all-at-once model of exeuction, but a dynamic interactive model for exploring it. Also see Bret Victor's "Media for Thinking the Unthinkable"
 #### Object (interface), UI, API ... These are all really the same thing
 #### OO is about objects, not about classes (Jim Coplien & DCI)
-#### Bootstrapping: compiler/system written in "itself", and can self re-define
-  * Built-in compilers/translators/serializers that can re-compile the system/runtime to another platform, and each compiler "comes with" because it is written in the language of the system. ("Ultron")
 #### Automatic JIT compilation, or compiling only key components (which?)?
 #### A basic UI substrate from which anything can be put together (like how any structure can be built from the same object-model)
   * Concept of graphics primitives, or of UI primitives (e.g. boxes), each with their own relative transformations
@@ -85,7 +88,6 @@
   * Lisp Macro expansion does this because the macro language is the same as the target-languages; and thus you can have macro-macros, etc. Apply this idea to UI & code: if they are "the same thing", then ... voila!
 #### No need for an OS
 #### Software Archeology: self-contained system that makes its own bootstrapping & running self-evident: http://www.vpri.org/pdf/tr2015004_cuneiform.pdf
-#### Software is already its own tool (software makes, edits, and runs software)
 #### Stop making programming better for programmers, and make computering better for users (note: have we even discovered what "computer" can mean? Can we open the door to let users do that discovering?)
 #### Replace concept of "compile time" with JIT compilation (i.e. compilation on demand at runtime). How is this any different than any other normal code transforming data (especially if code and data are the same)?
 #### "Restricted OO" (see http://fulloo.info)
