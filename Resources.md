@@ -59,3 +59,8 @@
 * ["What To Know Before Debating Type Systems"](http://blog.steveklabnik.com/posts/2010-07-17-what-to-know-before-debating-type-systems)
 
 * [Listerator - How to Implement a Programming Language in JavaScript](http://lisperator.net/pltut/)
+
+* [TUNES Operating System](http://tunes.org/cliki/) (design, never completed or working)
+  * ["A Useful, Not Expedient, System"](http://www.madore.org/~david/computers/tunes.html)
+  * ["Why a New Operating System?"](http://tunes.org/papers/WhyNewOS/WhyNewOS.html)
+  * [Overview: "What is TUNES?"](http://tunes.org/overview.html)
