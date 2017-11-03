@@ -1,5 +1,7 @@
 **List of related projects on Github (or elsewhere):**
 
+*(TODO: Add descriptions)*
+
 Our projects:
 
 * Dan Cook - ["Objects"](https://github.com/d-cook/Objects)
@@ -13,3 +15,4 @@ Others:
 * [Lively Kernel](https://www.lively-kernel.org/)
 * Peter Rogers - ["Resource Oriented Programming"](https://youtu.be/1O8PwkXfDJg)
 * [Kano Computer Kit](https://kano.me/store/us/products/computer-kit)
+* [TUNES Operating System](http://tunes.org/cliki/)
