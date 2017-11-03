@@ -36,7 +36,7 @@
   * Initial decision decisions don't matter much if they can be made easily (fluidly) changeable
 
 #### Trade Restrictions for Open-ness
-* Related [Resources](https://github.com/d-cook/SomethingNew/blob/master/Resources.md): Linda Rising; Jane Jacobs
+* Respect for the human element, and not restricted mechanisms, does the most to encourage good design. Related [Resources](https://github.com/d-cook/SomethingNew/blob/master/Resources.md): Linda Rising; Jane Jacobs
 * Not imposing a prescriptive way of doing things (e.g. programming language, code frameworks, set-in-stone UI, etc.)
 * Instead of hiding things (like closure contexts) or enforcing restrictions (static types, access-level modifiers), expose ALL things for maximum potential, and rely on good structure & practice to make things clear
 * Late bound & Dynamic- instead of static-typing (i.e. structure is implicit rather than "stripped away" or held to a rigid calculus)
