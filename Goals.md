@@ -1,5 +1,7 @@
 **List of relevent goals for this collaboration and/or its projects**
 
+*(TODO: Add goals gathered from materials listed in Resources.md)*
+
 These are things we wish to accomplish with this (and related) project(s), or principles that we should follow to accomplish our goals.
 
 * Build a collection of relevent resources, goals, concepts, projects, etc.
