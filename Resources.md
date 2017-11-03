@@ -1,12 +1,10 @@
 **List of relevant research materials & resources**
 
-(TODO: Add brief (relevent) descriptions to these)
+(TODO: Add brief (relevant) descriptions to these)
 (TODO: Organize (or order) these better)
-  
-* [**H**uman **A**dvancement **R**esearch **C**ommunity](http://harc.ycr.org/)
 
-* [**V**iew**P**oints **R**esearch **I**nstitute](http://www.vpri.org/)
-  * [VPRI - Intenting Fundamental New Computing Technologies](http://www.vpri.org/html/work/ifnct.htm)
+#### [Viewpoints Research Institute (VPRI)](http://www.vpri.org/)
+  * [Inventing Fundamental New Computing Technologies](http://www.vpri.org/html/work/ifnct.htm)
 
 * [Bret Victor (WorryDream.com)](http://worrydream.com/)
   * [Learnable Programming](http://worrydream.com/LearnableProgramming/)
