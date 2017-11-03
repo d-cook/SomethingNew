@@ -4,31 +4,36 @@
 
 ### Moldable software
 * Software (tools) that can evolve or be reshaped into something new or different at will (by the end-user)
-* The software tool is its own live-editor. Feature-edits take affect (become usable) *immediately* (no "rebuild")
+* The software tool is its own live-editor, and can be insected and modified in place (without "rebuilding")
+* "Strong References": Entities (in code) are referenced directly rather than by name. Changes to the entity (e.g. rename) are immediately reflected (transparaent) everywhere that the entity is used.
+* Ability to edit code (at runtime) without breaking context (e.g. JavaScript closures are broken when functions are edited)
 
 ### Everything as Objects
-* Alan Kay's concept of objects being a recursion of the notion of "computer"
-* Code is stored as an object-graph (AST), rather than as text
-  * Working directly with the intended model (AST), rather than a (poor) *representation* of it
-    * No more need for parsing or a "parsable grammar"
-  * Code can be generated & manipulated at runtime (by the user, or programmatically)
-* "Strong sense of identity" - Entities referenced directly instead of by name.
-  * Makes remaning & refactoring trivial
-  * Conflicts with "message passing"
-* An entire software system or tool composed of objects can be inspected and modified directly in place
-  * A single universal tool for viewing and editing everything, if everything has the same structure
-  * All objects in all contexts are part of the same "tree", with the "root" being the entire system
+* Alan Kay: objects as a recursion of the notion of "computer"
+* Everything (code, data, UI, runtime) is made of nestable "objects" that can be inspected and modified in place
+* All objects are part of the same "object-tree", with the "root node" being the entire system
+* Work directly with intented model (structure) of things, rather than a *representation* of that structure
+  * Code is manipulated directly in [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) form, rather than [Parsed](https://en.wikipedia.org/wiki/Parsing#Computer_languages) from text.
+  * Code can be generated & manipulated directly at runtime (by the user, or programmatically)
+* A universal tool can be used to view and edit everything, since it all shares a common representation
 
 ### Message Passing
-* Alan Kay's concept of objects being a recursion of the notion of "computer"
 * Operations between objects (code) are all "messages"
-* "Strong references" are avoided, to decouple objects from each other / from the system
-  * Makes serialization & "rehydration" of objects & code more straightforward
-* Blurs the distinction between communicating objects and networked computers
+* Alan Kay: objects as a recursion of the notion of "computer"
+* Blurred distinction between objects and networked computers (Alan Kay's notion of objects)
+* "Strong References" are avoided, so that objects are decoupled (better for composition & serialization)
 
 ### Stepping Stones ("Worse is Better")
 * "Everything as Objects": Bootstrap a minimal implementation from which something better can be made
   * Initial decision decisions don't matter much if they can be made easily (fluidly) changeable
+
+### Fewer Kinds of Things
+* Fewer "different kinds" of things, and more general (and simpler) common things / representations / tools.
+* An AST structure can model both code & data, but also (for example) files & folders, or settings.
+
+### Fewer Restrictions
+* Instead of hiding things (like closures) or enforcing restrictions (types, access-levels), expose ALL things for maximum potential, and rely on good structure & practice to make things clear
+* Related [Resources](https://github.com/d-cook/SomethingNew/blob/master/Resources.md): Linda Rising; Jane Jacobs
 
 ----
 
@@ -39,15 +44,12 @@
 ### Blurring the line between compile-time and runtime execution, script and executable, meta and non-meta.
 ### Blurring the line between programming (code) and user interaction (UI)
 ### Not imposing a prescriptive way of doing things (e.g. programming language, code frameworks, set-in-stone UI, etc.)
-### Instead of many different things with different interfaces and specifications, have fewer general things.
-  * An AST structure can model both code & data, but also (for example) files & folders, or settings.
 ### Projectional editing
 ### Simplicity over complexity
 ### Simplicity of underlying structure, or of mechanism for creating it? Maybe there should be no (or little) distinction between the two
   * Compare JavaScript to other languages: Most declarations are not fundamentally different than any other imperative code.
 ### Think of programming language as a way to specify a program using a grammar. What if instead of a grammar, you used an API to create program constructs and make API calls to manipulate, validate, and build it? It would be very easy to extend however you like. Also, extend this idea to UI
 ### Specify structure, or specify process that generates structure?
-### Universal support for viewing, editing, and serializing a common object model (AST)
 ### Rather than depending on separate things (programming language, IDE, editor, etc.), each piece of software should be its own self-contained tool for doing all this, capable of editing its own "language"/compiler (if relevent), UI, etc.
 ### Dynamic structure/language versus static (that is, making structure implicit in itself rather than "stripped away" or held to a rigid calculus)
   * Related to software having its own self-contained editor, language, compiler, and UI
@@ -69,9 +71,6 @@
 ### Developing more of a runtime model (e.g. a whole system) rather than just a language (e.g. dependency on compiler)
 ### AST means nothing is every "compiled" down to machine level, but instead there is a kernel (written or mirrored in itself)
 ### JIT compilation upon code edit, or just projectional view/edit? (is this the same thing?)
-### Edit code without breaking closures (like JavaScript fails to do)
-### Instead of hiding things (like closures) or enforcing restrictions (types, access-levels), expose ALL things for maximum potential, and rely on good structure & practice to make things clear
-  * Related: Linda Rising's article; Jane Jacobs (read about apartments on the wiki page)
 ### Still generate compiled programs, but a bootstrapped self-contained tool as a better alternative to "source code"
 ### Runtime execution somehow exists in some inspectable form, so it could be "paused", modifed, serialized, and resumed
   * Actors that can be sent (or send themselves) across systems, and keep running afterward
