@@ -31,9 +31,12 @@
 * Fewer "different kinds" of things, and more general (and simpler) common things / representations / tools.
 * An AST structure can model both code & data, but also (for example) files & folders, or settings.
 
-### Fewer Restrictions
+### Fewer / Looser Restrictions
 * Instead of hiding things (like closures) or enforcing restrictions (types, access-levels), expose ALL things for maximum potential, and rely on good structure & practice to make things clear
 * Related [Resources](https://github.com/d-cook/SomethingNew/blob/master/Resources.md): Linda Rising; Jane Jacobs
+* Dynamic structure/language versus static (i.e. structure is implicit rather than "stripped away" or held to a rigid calculus)
+* Be aware of pre-mature optimization that makes decisions (or sets things in stone) too early
+  * There are always techniques to overcome inefficiencies, such as caching of lookups.
 
 ----
 
@@ -51,10 +54,6 @@
 ### Think of programming language as a way to specify a program using a grammar. What if instead of a grammar, you used an API to create program constructs and make API calls to manipulate, validate, and build it? It would be very easy to extend however you like. Also, extend this idea to UI
 ### Specify structure, or specify process that generates structure?
 ### Rather than depending on separate things (programming language, IDE, editor, etc.), each piece of software should be its own self-contained tool for doing all this, capable of editing its own "language"/compiler (if relevent), UI, etc.
-### Dynamic structure/language versus static (that is, making structure implicit in itself rather than "stripped away" or held to a rigid calculus)
-  * Related to software having its own self-contained editor, language, compiler, and UI
-  * Be aware of pre-mature optimization that makes decisions (or sets things in stone) too early
-    * There are always techniques to overcome inefficiencies, such as caching of lookups.
 ### Making decisions (or allowing them to be made) based on context. (Context-dependent language, UI, etc; software that works a certain way that's best for itself, rather than trying to choose a prescriptive way to "do everything")
 ### Modeling & editing structure as-is, or modeling and editing a generative process and replacing the old thing by regenerating it.
 ### Programming via interaction (e.g. capturing operations as steps of UI operations, rather than trying to visualize a "flow" of operations). Idea taken from Bret Victor's "Drawing Dynamic Visualizations".
