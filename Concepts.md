@@ -44,8 +44,7 @@
 
 #### Blurring the Line
 * Between programming & user interaction: If the UI and the code share the same structure ("Everything as Objects"), then there is no real difference between [UI](https://en.wikipedia.org/wiki/User_interface) and [API](https://en.wikipedia.org/wiki/Application_programming_interface)
-* Between compiler and program (see "Abolish Compiled Language")
-* Between compile-time and runtime: What's the difference between a compile-time operation, and an operation within a program that generates code (or another program) to be run at a later time? (Example: JavaScript)
+* Between compiler & program / compile-time & runtime / script & compiled program (see "Abolish Compiled Language")
 * Between macros & other programmatic transformations
 
 #### Abolish Compiled Language
@@ -84,8 +83,6 @@
 
 ----
 
-#### Blurring the line between compile-time and runtime execution, script and executable, meta and non-meta.
-#### Blurring the line between programming (code) and user interaction (UI)
 #### Projectional editing
 #### Simplicity over complexity
 #### Simplicity of underlying structure, or of mechanism for creating it? Maybe there should be no (or little) distinction between the two
