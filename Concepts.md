@@ -40,16 +40,18 @@
 * "Everything as Objects": Bootstrap a minimal implementation from which something better can be made
   * Initial decision decisions don't matter much if they can be made easily (fluidly) changeable
 
-#### Trade Restrictions for Open-ness
+#### Less Restrictive
 * Related to "Respect the Human Model"
 * Not imposing a prescriptive way of doing things (e.g. programming language, code frameworks, set-in-stone UI, etc.)
 * Instead of hiding things (like closure contexts) or enforcing restrictions (static types, access-level modifiers), expose ALL things for maximum potential, and rely on good structure & practice to make things clear
-* Late bound & Dynamic- (instead of Static-) Typing: Structure is freeform rather than held a rigid calculus
+* Late-binding & Dynamic-typing (instead of static): Structure is freeform rather than held a rigid calculus
 * Avoid pre-mature optimizations that make decisions / set things in stone too early
 * Fewer "different kinds" of things, and more general (and simpler) common things / representations / tools
   * Simple underlying structure for representing many things ("Everything as Objects")
 * Context-based decisions, behaviors, language, UI, etc. rather than prescribing "one for all" ("Self-Ownership")
 * Make OO about objects again, rather than about classes (like [Self](https://en.wikipedia.org/wiki/Self_(programming_language)))
+* Example: using generic data types (or JSON) instead of creating a new class for every possible "kind" of data.
+  * Microsoft .NET frameworks like [WCF](https://en.wikipedia.org/wiki/Windows_Communication_Foundation) and [MVC](https://en.wikipedia.org/wiki/ASP.NET_MVC) are great examples of *failing* to do this; they make it *really hard* to do things generically or just "pass the data".
 
 #### Respect the Human Model
 * Related to "Trade Restrictions for Open-ness"
