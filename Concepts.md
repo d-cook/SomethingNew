@@ -17,7 +17,8 @@
 * "[Ultron](https://en.wikipedia.org/wiki/Ultron)": System that can re-compile itself to another platform. As this pattern is repeated, each compiler "comes with" because it is written in the language of the system
 
 #### Self-Defining
-* Abstract: Software entities define their own creation, language, UI, editor, etc. in a self-evident way
+* Abstract: Software entities define ("bootstrap") their own creation, language, UI, editor, etc. in a self-evident way
+  * Rather than depending on sepate things (IDE, compiler, editors, etc.)
 * Surprising that this is not already common, since the tool for making & editing software is ... ***software***
 * Bootstrapping: compiler/system that is written in "itself", and can redefine itself ("Moldable Software")
 * Software Archeology: self-contained system that makes its own bootstrapping & running self-evident: http://www.vpri.org/pdf/tr2015004_cuneiform.pdf
@@ -43,9 +44,10 @@
   * Decouple "closures" from context by using *named* references into a separate "context" object. Thus the context object could be replaced or edited separately, or perhaps (optionally?) passed in separately
 
 #### Blurring the Line
-* Between programming & user interaction: If the UI and the code share the same structure ("Everything as Objects"), then there is no real difference between [UI](https://en.wikipedia.org/wiki/User_interface) and [API](https://en.wikipedia.org/wiki/Application_programming_interface)
+* Between code ([API](https://en.wikipedia.org/wiki/Application_programming_interface)) & [UI](https://en.wikipedia.org/wiki/User_interface) (if they share the same representation -- see "Everything as Objects")
+* Between programmatic operations & user (inter)actions
 * Between compiler & program / compile-time & runtime / script & compiled program (see "Abolish Compiled Language")
-* Between macros & other programmatic transformations
+* Between ([LISP](https://en.wikipedia.org/wiki/Lisp_(programming_language))-like) [macros](https://en.wikipedia.org/wiki/Macro_(computer_science)#Syntactic_macros) & other programmatic transformations (macro 
 
 #### Abolish Compiled Language
 * Think of uncompiled source code (written in a compiled-language) as a program that makes an executable program, and the compiler as the interpreter of that program. When viewed in this way, declarations within code (classes, functions, variables) act as *imperative commands* to create components of a program. Replacing these "commands" with an API & user-defined functions would allow programs to be generated with *any* components & mechanisms, rather than from a *fixed set* of "language features". No more language restrictions!
@@ -86,28 +88,18 @@
 #### Projectional editing
 #### Simplicity over complexity
 #### Simplicity of underlying structure, or of mechanism for creating it? Maybe there should be no (or little) distinction between the two
-  * Compare JavaScript to other languages: Most declarations are not fundamentally different than any other imperative code.
 #### Specify structure, or specify process that generates structure?
-#### Rather than depending on separate things (programming language, IDE, editor, etc.), each piece of software should be its own self-contained tool for doing all this, capable of editing its own "language"/compiler (if relevent), UI, etc.
 #### Modeling & editing structure as-is, or modeling and editing a generative process and replacing the old thing by regenerating it.
 #### Programming via interaction (e.g. capturing operations as steps of UI operations, rather than trying to visualize a "flow" of operations). Idea taken from Bret Victor's "Drawing Dynamic Visualizations".
   * That is, not a flat look-at-it-all-at-once model of exeuction, but a dynamic interactive model for exploring it. Also see Bret Victor's "Media for Thinking the Unthinkable"
-#### Object (interface), UI, API ... These are all really the same thing
-#### OO is about objects, not about classes (Jim Coplien & DCI)
 #### Automatic JIT compilation, or compiling only key components (which?)?
 #### A basic UI substrate from which anything can be put together (like how any structure can be built from the same object-model)
   * Concept of graphics primitives, or of UI primitives (e.g. boxes), each with their own relative transformations
-#### A way to map code (and other things) to custom UIs/views
 #### To prototype (or class) objects, or not to?
 #### AST means nothing is every "compiled" down to machine level, but instead there is a kernel (written or mirrored in itself)
 #### JIT compilation upon code edit, or just projectional view/edit? (is this the same thing?)
 #### Still generate compiled programs, but a bootstrapped self-contained tool as a better alternative to "source code"
-#### Do not get stuck on specific implementation choices if it can be changed later ("worse is better")
-#### Separate storage of execution state ("context") from code
-  * Any runtinme operation can derive from just modeling the execution state directly
-  * Continuation Passing Style?
 #### Potential of LISP is generally overlooked, and it is used as JUST a programming language
-#### Macro-expansion assumes a compilation phase
 #### Not a MetaObject Protocol, but a MMOP that is its own MMMOP
   * Lisp Macro expansion does this because the macro language is the same as the target-languages; and thus you can have macro-macros, etc. Apply this idea to UI & code: if they are "the same thing", then ... voila!
 #### No need for an OS
