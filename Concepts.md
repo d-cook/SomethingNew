@@ -2,18 +2,24 @@
 
 *(TODO: Add concepts gathered from materials listed in Resources.md)*
 
-#### Moldable software
+#### Stepping Stones
+* "[Worse is Better"](https://www.dreamsongs.com/WorseIsBetter.html)
+* Bootstrap a minimal implementation from which something better can be made, rather than trying to create the perfect thing up-front
+  * Initial decision decisions don't matter much if they can be made easily (fluidly) changeable
+* Don't try to find the one "best" way / goal / etc., but instead nurture many alternative approaches
+* Experimenting with initial stepping stones (Alan Kay: "almost new") is a necessary prerequisite to discovering the "new" thing (Alan Kay: "New" vs "News") 
+
+#### Moldable Software
 * Software (tools) that can evolve or be reshaped into something new or different at will (by the end-user)
 * The software tool is its own live-editor, and can be insected and modified in place (without "rebuilding")
 * "Strong References": Entities (in code) are referenced directly rather than by name. Changes to the entity (e.g. rename) are immediately reflected (transparaent) everywhere that the entity is used
 * Ability to edit code (at runtime) without breaking context (e.g. JavaScript closures are broken when functions are edited)
+* "[Ultron](https://en.wikipedia.org/wiki/Ultron)": System that can re-compile itself to another platform. As this pattern is repeated, each compiler "comes with" because it is written in the language of the system
 
-#### Self-Ownership
+#### Self-Defining
 * Abstract: Software entities define their own creation, language, UI, editor, etc. in a self-evident way
-* The software tool is its own live-editor, and can be insected and modified in place (without "rebuilding")
 * Surprising that this is not already common, since the tool for making & editing software is ... ***software***
-* Bootstrapping: compiler/system that is written in "itself", and can self re-define
-* System with built-in compiler / translator / serializer that can re-compile the system/runtime to another platform, and each compiler "comes with" because it is written in the language of the system. ("Ultron")
+* Bootstrapping: compiler/system that is written in "itself", and can redefine itself ("Moldable Software")
 * Software Archeology: self-contained system that makes its own bootstrapping & running self-evident: http://www.vpri.org/pdf/tr2015004_cuneiform.pdf
 
 #### Everything as Objects
@@ -36,17 +42,26 @@
   * Decouple code by splitting into functional code, and separate execution context that is "passed in"
   * Decouple "closures" from context by using *named* references into a separate "context" object. Thus the context object could be replaced or edited separately, or perhaps (optionally?) passed in separately
 
-#### Stepping Stones ("Worse is Better")
-* "Everything as Objects": Bootstrap a minimal implementation from which something better can be made
-  * Initial decision decisions don't matter much if they can be made easily (fluidly) changeable
+#### Blurring the Line
+* Between programming & user interaction: If the UI and the code share the same structure ("Everything as Objects"), then there is no real difference between [UI](https://en.wikipedia.org/wiki/User_interface) and [API](https://en.wikipedia.org/wiki/Application_programming_interface)
+* Between compiler and program (see "Abolish Compiled Language")
+* Between compile-time and runtime: What's the difference between a compile-time operation, and an operation within a program that generates code (or another program) to be run at a later time? (Example: JavaScript)
+* Between macros & other programmatic transformations
 
-#### Less Restrictive
+#### Abolish Compiled Language
+* Think of uncompiled source code (written in a compiled-language) as a program that makes an executable program, and the compiler as the interpreter of that program. When viewed in this way, declarations within code (class, function, variable) serve as a *fixed set* of imperative *commands* to create components of an executable program. By replacing these "commands" with an API user-defined functions, the "program-making-program" (uncompiled source code) can generate a program using *any* language features at all. The change is essentially going from a program written "in a language", to interpreted code that generates a program from a "set of features". This frees the programmer from *all* language restrictions!
+* Example: `class Foo { Bar b }` becomes `myClass = MakeClass("Foo"); myClass.AddMember("b", myBarClass)`
+* Example: `myTrait = new MyVeryOwnTraitsImplementation("ResizableThing"); myTrait.ApplyTo(myClass)`?
+* This is what makes languages like JavaScript so powerful: many things that are "declarations" in other languages are actually imperative calls to user-defined functions. This is why people have been able to make so many different kinds of object-models (etc.) in it.
+* This makes things like compiler hooks and reflection mostly obsolete (see "Fewer 'kinds' of things" under "Less Restrictive")
+
+#### Avoid Restrictions
 * Related to "Respect the Human Model"
 * Not imposing a prescriptive way of doing things (e.g. programming language, code frameworks, set-in-stone UI, etc.)
 * Instead of hiding things (like closure contexts) or enforcing restrictions (static types, access-level modifiers), expose ALL things for maximum potential, and rely on good structure & practice to make things clear
 * Late-binding & Dynamic-typing (instead of static): Structure is freeform rather than held a rigid calculus
 * Avoid pre-mature optimizations that make decisions / set things in stone too early
-* Fewer "different kinds" of things, and more general (and simpler) common things / representations / tools
+* Fewer "kinds" of things, and more general (and simpler) common things / representations / tools
   * Simple underlying structure for representing many things ("Everything as Objects")
 * Context-based decisions, behaviors, language, UI, etc. rather than prescribing "one for all" ("Self-Ownership")
 * Make OO about objects again, rather than about classes (like [Self](https://en.wikipedia.org/wiki/Self_(programming_language)))
@@ -54,13 +69,13 @@
   * Microsoft .NET frameworks like [WCF](https://en.wikipedia.org/wiki/Windows_Communication_Foundation) and [MVC](https://en.wikipedia.org/wiki/ASP.NET_MVC) are great examples of *failing* to do this; they make it *really hard* to do things generically or just "pass the data".
 
 #### Respect the Human Model
-* Related to "Trade Restrictions for Open-ness"
+* Related to "Avoid Restrictions"
 * Good design (and "doing the right thing") cannot be *enforced* with retrictive mechanisms. It can only be *encouraged* by respecting the human element. See "Linda Rising" and "Jane Jacobs" in the [Resources](https://github.com/d-cook/SomethingNew/blob/master/Resources.md)
 * Instead of making programming more fun for programmers, make "computering" better for users (note: have we even discovered what "computer" can mean? Can we open the door to let users do that discovering?)
 * Software components / modules are only meaningful if the abstractions are proper "whole" parts of a human mental model, decoupled from everything else
   * When this is acheived, then composability is more than just a nice property of source code, but something that can be exposed to the end-user through a UI at runtime (drag-and-drop software composition through a UI)
   * Read about "Restricted OO" on http://fulloo.info (TODO: provide a more direct link)
-* Related: "Software Archeology" (under "Self-Ownership")
+* Related: "Software Archeology" (under "Self-Defining")
 * Create more of a runtime model (e.g. a whole system) rather than just a language with dependency on a separate compiler/interpreter
 
 ----
@@ -75,7 +90,6 @@
 #### Simplicity over complexity
 #### Simplicity of underlying structure, or of mechanism for creating it? Maybe there should be no (or little) distinction between the two
   * Compare JavaScript to other languages: Most declarations are not fundamentally different than any other imperative code.
-#### Think of programming language as a way to specify a program using a grammar. What if instead of a grammar, you used an API to create program constructs and make API calls to manipulate, validate, and build it? It would be very easy to extend however you like. Also, extend this idea to UI
 #### Specify structure, or specify process that generates structure?
 #### Rather than depending on separate things (programming language, IDE, editor, etc.), each piece of software should be its own self-contained tool for doing all this, capable of editing its own "language"/compiler (if relevent), UI, etc.
 #### Modeling & editing structure as-is, or modeling and editing a generative process and replacing the old thing by regenerating it.
@@ -92,7 +106,6 @@
 #### JIT compilation upon code edit, or just projectional view/edit? (is this the same thing?)
 #### Still generate compiled programs, but a bootstrapped self-contained tool as a better alternative to "source code"
 #### Do not get stuck on specific implementation choices if it can be changed later ("worse is better")
-#### Code consists of imperative commands rather than declarative statements that must be compiled & analyzed. Declarative entites just "exist" inline.
 #### Separate storage of execution state ("context") from code
   * Any runtinme operation can derive from just modeling the execution state directly
   * Continuation Passing Style?
