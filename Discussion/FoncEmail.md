@@ -247,8 +247,6 @@ Would be nice is CPUs were more open though, like if there were more freedom for
 
 There is also RISC-V, which seems promising, but I haven't looked into it all that too deeply.
 
-...
-
 ----
 
 Dan Cook
@@ -315,3 +313,204 @@ project, but it should be complemented by a mailing list or something
 like Slashdot or Hacker News, with the best example being:
 
 http://lambda-the-ultimate.org/
+
+----
+
+Dan Cook
+<br/>28 October 2017
+
+I have pasted selections of these emails to the https://github.com/d-cook/SomethingNew/ project (see the "Discussion" links on the ReadMe page, which is immediately visible on the project home page).
+
+I have exchanged a LOT of valuable information & insights here, and it's a shame to let it get lost in emails.
+
+I'm hoping that we can move forward by contributing information directly to topics / lists / etc. that anyone can easily find or expand upon, rather than digging through emails that have a limited audience. This will also keep information organized, rather than letting it all get lost in conversation (though we can still have & keep conversation for references, which is why I created the "Discussions" section).
+
+I'm not suggesting that we replace all casual emails with this, but that any information & ideas we share or collaborate on be posted there instead of in emails, so that it can stick around and be expanded upon & discussed in an organized fashion that's easy to refer to.
+
+Note: read the following two emails that I have copied to SomethingNew for added context:
+https://github.com/d-cook/SomethingNew/blob/master/Discussion/PavelDanEmail.md
+https://github.com/d-cook/SomethingNew/blob/master/Discussion/JoelDanEmail.md
+
+----
+
+John Carlson
+<br/>2 November 2017
+
+Is there a chance the live editor can be used to generate a trace or log of actions, to be used for abstraction (sequence clustering) and teaching the computer how to do things (programming by demonstration, imitation learning and one-shot imitation learning).  I do not know if this means a fully undoable environment or not, including operational transform (multiple user, parallel action).
+
+Kind of what I mean by this is a multilevel, but probably not a meta level programming environment, at the base level, you are programming with symbols or objects, at the next level up, you are programming with actions, and at the next level above that, you are programming with undo, redo, cut and uncut, pause, play and reverse play.
+
+At the different levels, you have a space of symbols in the live editor, a space of symbol actions in the live recorder, and a space of meta actions in the live meta recorder.
+
+----
+
+Dan Cook
+<br/>2 November 2017
+
+This is the kind of idea that should go into Concepts.md.
+
+Currently, this is a list of ideas with little to no explanation. I've been thinking that we should either add descriptions and/or create separate documents for each so that they can really be described in detail. Maybe both: a list with links to separate pages?
+
+----
+
+John Carlson
+<br/>2 November 2017
+
+I will add it to Concepts.md and try to push.  I have previous description of a similar project, here: http://dsmforum.org/events/DSVL01/carlson.pdf I just would like to introduce it into whatever coding environments we all are working on.  It may be a background thing where logs are transferred to a central server, or it may be a client/server multiuser thing, or it may be an entirely client side thing (for privacy purposes), these are all possible, but I don’t know of anyone who has a comprehensive solution yet (but I haven’t searched).  I have seen some work on multiuser PbD, but that’s it.
+
+----
+
+Dan Cook
+<br/>2 November 2017
+
+Wow, this looks like a modern reboot of SmallTalk in that it allows children to assemble, code, and explore everything in the computer (software & hardware): https://kano.me/store/us/products/computer-kit. (I've added this to the "projects.md" file)
+
+----
+
+Dan Cook
+<br/>2 November 2017
+
+*(In response to Jecel commenting about not having much to contribute to UI design)*
+
+This is not all about UI design, and neither is it about a single software creation that we are hoping to all make together. The point is to share ideas & collaborate across multiple projects in the hopes of creating something fundamentally new.
+
+So the question might be what kind of "new" we are looking for.
+
+I think we have a bunch of overlapping mostly related ideas about what it's about, and everyone might give a slightly different answer; and maybe a sub-goal is to identify what we are hoping to achieve (both collectively and individually). The hope is that SomethingNew can serve as not just a place to collaborate, but also to explore what this "new" is, and identify noble goals and means & ideas to achieve them. ... And again, it's not all about UI stuff (though I'd personally say that UI is highly necessary for reinventing software in a meaningful way; but there are lots of other facets to it than that).
+
+If I take my stab at it though, I'd say that the common theme is to build upon why Alan Kay (and Bret Victor) says about the "computer revolution" not having happened yet. That is, there are powerful new ways of thinking and doing that computers make possible; but humanity has yet to discover it because we are using it mostly as a means to do "old things" better. This can be applied at MANY levels: programming language, UI, media, networks, operating systems, etc.
+
+Perhaps another take on it (but related) is to rethink programming and computers in better human terms, rather than the vulgar mechanical & technical ways it is all thought of and approached. A lot of this applies even just to programming languages, coding practices, and software development/engineering techniques; but we can also relate a lot of UI stuff to this as well.
+
+I suggest that you look at the lists of resources, concepts, etc., and see what you can find in there. And if you REALLY want to investigate it (e.g. actually go read or watch things), you could spend more than a year just digesting the breadth and depth of what's been accumulated so far. (And that's another goal: programming is SO stuck in thinking about mechanism, that it is REALLY really hard for many programmers to begin to value something that involves a new way of thinking, especially if that thinking is about trading a mechanistic view for a humanistic one) ... and there are many resources I could refer you to to better explain / elaborate on what I'm saying here; so the best thing is to just go out and learn all the things that most software folk are completely blind to. It's incredible that most of us (software folk) do not truly understand what software & programming REALLY is, or the mess that it has become, or the hugeness of what is possible but has been overlooked for decades.
+
+Anyway, even if you have nothing related to contribute, you are welcome to stick around, or learn, or share, or whatever. And if you have anything interested but not "related", feel free to email about it at least.
+
+...
+
+Oh, and if we DO end up coming up with one main "super software" thing, then I am sure that there are many aspects of it that are not just about the UI. There is programming language, bootstrapping, data modeling, compiler / interpreter / translator stuff, OS stuff (maybe), etc. And once such a system begins to exist, the hope is that it will be its own exploratorium for turning it into something new -- and I dont think that requires any UI experience, just tinkering and discovery.
+
+Also, it is likely that we might approach such a system from different angles or in different ways, and these things may either come together or be explored in parallel, or possibly be able to "bootstrap" themselves into each other. Lots of possibilities, many of which I think we will not know until we get there.
+
+----
+
+"BGB"
+<br/>3 November 2017
+
+Some more info about my projects:
+
+My thinking is that it could be nice to have a CPU arch and compiler infrastructure that is more accessible to individuals wanting to experiment (the existing options aren't great for this). For example, x86, while not too bad for compilers or assemblers, isn't well suited to small FPGA implementations with any real semblance of performance. likewise newer variants are highly patent encumbered (likewise goes for ARM).
+
+A RISC style ISA can be more easily implemented on a lower-cost FPGA (eg: below $100), and can more easily (and consistently) deliver around 1 operation per clock-cycle (excluding memory accesses), which is potentially "usefully fast" (if one can get it clocked at ~ 100-200 MHz, ...).
+
+While fixed-width is easier, 16|32 variable width at least is manageable (though, in my case, my attempt did require an additional pipeline stage vs the fixed-width case). The reason for 16 or 16|32 over just 32 bit ops is that of code density, where only a minority of ops "actually need" the full 32 bits, and using 32b for ever operation wastes space. likewise, code-density matters because I-cache isn't free. Though, a RISC with only 32-bit ops can be simpler/cleaner than one with 16-bit ops or 16|32 ops.
+
+Pure 16-bit suffers some in not being quite sufficient to represent an entire ISA effectively, leading to a lot of ugly edge-cases; and 16|32 leads to some added redundancy (multiple variants of the same logical instruction). pure 16-bit also doesn't leave all that much space for experimentation or extensions either.
+
+For compilers, drawbacks emerge:
+* GCC is very large, slow and difficult to modify and rebuild from source;
+* LLVM basically kills the computer trying to compile it.
+  * Even a PC with 16 or 24 GB of RAM may still end up swapping
+  * Build times of ~ 45 minutes or so are not good for iteration.
+* Options like LCC, ... are typically fairly limited.
+  * Many of the simple compilers are "parse to AST, flatten AST to ASM, call it done".
+  * I would also prefer it to be plain C, and "relatively clean".
+
+My C compiler, still falls short of ideal, but at least I am more familiar with the code.
+Though, it seems that my approach to things is very different from many of the others I had looked at:
+* Tokenizer basically splits off tokens, which are then matched by the parser afterwards.
+  * Some of the others use basically huge nested switches to parse at the character level.
+* I use abstract nodes with assigned/named attributes and child nodes.
+  * Many of the others use GTK-style struct-casting with a large number of node-type structs.
+* Most of my other structure types are "generic" and identified by tags.
+
+The ASTs in my C compiler are generally dumped as XML (and historically the AST system was derived from DOM); but had considered moving over to a more JSON like notation (my BS2 VM also used a JSON-like external notation for its ASTs; whereas its predecessor, the BS VM, had used S-Expressions).
+
+General AST node structure, BS2 and BGBCC:
+* Consists of key/value pair-arrays, with a 16-bit key (identifies key symbol and value type);
+* Value is generally a 64-bit value with a meaning that depends on the key.
+  * ex: a 64 bit integer value; a double; a node-pointer; a short string; a string pointer; ...
+* In BGBCC, they also hold internal linked-list stuff, whereas BS2VM used arrays.
+  * I may consider trying to move BGBCC to external linking
+    * Mostly to allow reducing memory use due to reducing needless tree-cloning.
+    * Also to save some fields for stuff that is N/A for most nodes (eg: hash-linking)
+  * Linked lists are cheaper than arrays when N is small (common in ASTs).
+
+Possibly also unusual is its pipeline:
+* preproc -> parser => AST -> frontend => RIL3A
+* RIL3A -> stack-machine => 3AC/SSA -> codegen -> native => ELF|PE
+Or: 
+* preproc -> parser => AST -> frontend -> stack-machine =>
+  * 3AC/SSA -> codegen -> native => ELF | PE/COFF
+
+Where RIL3A is a stack-machine IR, and was used mostly because it was sort-of around as a vestigial structure, and I noted a stack IR would be a bit simpler to flatten and reload than the 3AC. Similarly, this part exists mostly because it became apparent early on that I would need some way to be able to support a statically-linked C runtime, and would prefer not to do it by always compiling the C runtime from source.
+
+The 3AC/SSA stage is basically where the frontend/backend split happens. Both stages are basically independent, but the backend still uses the front-end for type-system. Generally, the 3AC covers the entire program image, as individual translation-units no longer exist at this stage (and are mostly just faked in the frontend to keep C happy). Things like function prototypes/structs/typedefs/... effectively merge between translation units. This can give some of the advantages of single-translation-unit, without breaking C semantics.
+
+Though, a full "single translation unit" mode could further reduce costs by avoiding a lot of redundant preprocessing and parsing, which still remain as an issue. As noted, there is currently no use of an external assembler or linker. Use of an ASM stage and object-file stage were avoided internally partly for speed and code-size reasons.
+
+ASM is supported, but goes like this:
+* preproc -> (forwarded as a blob through other stages) -> ASM parser -> native.
+* Basically, to most stages it looks like a module simply containing a big inline-assembler blob.
+  * The ASM parser basically reuses a lot of structure otherwise used for emitting native code.
+  * But, as a side-effect, may gain some funky pseudo-instructions.
+
+Note that some parts of the compiler pipeline are controlled using FOURCC's, ideally it would be made more modular, such that components (such as language frontends or machine back-ends) could be added/registered more as plug-ins.
+
+A previously considered experiment (didn't get very far though) would be to do stuff to do bare-metal programming in my BS2 language (but would need to find a good place to "bridge" between the compilers). The "probably easiest" route here would be adding logic to parse the BS2VM's bytecode (also stack based, though a bit different) and spit out 3AC in the format used by BGBCC's backend.
+
+FWIW, generally, BS2 would present itself to the native ABI effectively as something resembling a COM interface.
+
+Also possible, but would be a lot more effort, would be adding more backends to BGBCC (such as ARM, RISC-V, or x86). though, an Thumb or RISC-V Compressed backend probably wouldn't be too huge of a jump.
+
+x86 would be a bigger jump as-is, but x86 is also a bit easier to write codegen's for (unlike SuperH or Thumb, things like "arithmetic op with immediate", "get constant loaded into a register" or "branch to a label over there" are not turned into a big/complicated mess).
+
+----
+
+Jecel Assumpcao Jr.
+<br/>3 November 2017
+
+We are near the end of a project called SiliconSqueak that is a
+processor optimized for running Smalltalk (both interpreted and with
+adaptive complication). We are also about to start a project to develop
+a completely new computer architecture (very unlike the current Von
+Neuman ones) implementing objects and message passing at the transistor
+level. This also involves new languages and systems.
+
+----
+
+"BGB"
+<br/>3 November 2017
+
+Seems like it could be interesting.
+
+I had been messing some with FPGA's and Verilog some recently, which are a
+bit more open in terms of what one can do (and have some semblance of
+efficiency).
+
+I had noticed before that, for example, the memory blocks (LUTRAM and
+Block-RAM) in a lot of the FPGA's are 18 or 36 bits wide. it seems
+conceivable that this could be used, say, to implement both a
+byte-oriented and tagged word memory model in the same space (with
+relatively little added cost).
+
+Granted, the external DRAM wouldn't have these extra bits, meaning
+probably needing to do something fancy in the cache/memory subsystem
+(and sacrificing a certain percentage of the total RAM for tag-bits).
+or, less fancy, stick with untagged memory and mostly work with
+type-tagged registers.
+
+Instructions for checking type-tags, ..., could be implemented in the
+ISA, which could allow for cheaper dynamically-typed languages, while
+not necessarily putting a burden on more traditional statically-typed
+languages.
+
+Potentially, it could also reduce the size of the ISA slightly, because
+many operators could be reused between multiple types (type being given
+on load/store vs on every operation).
+
+As for Von Neuman or not, there are advantages to it.
+
+Most modern processors (including my own designs attempts) were
+internally Modified Harvard, where code and data are kept separate
+internally, but typically a shared external interface is used to RAM.
