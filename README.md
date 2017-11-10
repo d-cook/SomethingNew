@@ -17,11 +17,4 @@ Here it all is:
 
 * [Projects](https://github.com/d-cook/SomethingNew/blob/master/Projects.md) - These are our own projects related to our goals, and/or other related projects
 
-* [Discussion](https://github.com/d-cook/SomethingNew/tree/master/Discussion) - Forum-like discussion of topics, and past email-threads.
-  * [Fonc Email](https://github.com/d-cook/SomethingNew/blob/master/Discussion/FoncEmail.md) - Selections from the initial email thread (in response to the VPRI "Fonc" email-list being decommissioned) which spurred the creation of this collaboration / initiative.
-  * [Joel & Dan Email](https://github.com/d-cook/SomethingNew/blob/master/Discussion/JoelDanEmail.md) - A rich source of initial goals & ideas behind this collaboration.
-  * [Pavel & Dan Email](https://github.com/d-cook/SomethingNew/blob/master/Discussion/PavelDanEmail.md) - A rich source of initial goals & ideas behind this collaboration.
-
-(TODO: Should we have anything else? Ideas: discussion (or individual discussion topics), ideas or notes for how to manage this collaboration, ...?)
-
-(TODO: Should we add pictures and color to this stuff? It would be ironic not too, I suppose)
+* [Discussion](https://github.com/d-cook/SomethingNew/tree/master/Discussion) - Forum-like discussion of topics, and past email-threads
