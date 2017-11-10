@@ -110,8 +110,6 @@ Even if we do collaborate on a specific project, I think we should still keep it
 
 All of this is probably something to talk more about another time.
 
-On that note, do we want to set up another call (is the weekend working for everyone), or is that too soon? I think it would be beneficial to have something semi-regular. For future reference, I am ok doing midnight my time (GMT 7 AM) for now, but lunch-time (GMT 7 PM) or later also works.
-
 ----
 
 Pavel Bažant
