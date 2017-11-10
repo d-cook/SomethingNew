@@ -101,6 +101,33 @@ Does this sound like a good approach / plan? Or are there any other concerns or 
 
 ----
 
+Dan Cook
+<br/>7 November 2017
+
+For a little bit, I almost forgot that we are only 4 of 10+ other people in the collaboration and that we want it to grow beyond the specific common idea(s) that we share. But since we DO have something in common to pursue (I assume -- I've been speaking faster than everyone can respond), do we (also) want to have a separate smaller collaboration (or at this point, perhaps "project" is a better word)? As for moving to C2 wiki, I think we are talking about moving the larger "collaboration". But I wonder if that's better suited to a wider-scoped collaboration, or more of a specific focus.
+
+Even if we do collaborate on a specific project, I think we should still keep it pretty tied into the larger collaboration.
+
+All of this is probably something to talk more about another time.
+
+On that note, do we want to set up another call (is the weekend working for everyone), or is that too soon? I think it would be beneficial to have something semi-regular. For future reference, I am ok doing midnight my time (GMT 7 AM) for now, but lunch-time (GMT 7 PM) or later also works.
+
+----
+
+Pavel Bažant
+<br/>8 November 2017
+
+I think that a sub-collaboration of us 4 who are more closely tuned to a common theme would make sense. IMHO there are several things we could/should set up:
+
+1) A public forum/mailing list that will serve the kind of people who followed the FoNC mailing list.
+2) A public compendium of approaches to powerful yet humane programming interfaces/environments (current as well as historic ones: MPS, Boxer, Smalltalk, Oberon, Sketchpad, Genera, ...) and related themes. I would try to avoid being too Xerox PARC-centric.
+3) A not necessarily public communication channel for us 4 (e-mail + occasional Skype calls work fine for now).
+4) A not necessarily public list of interesting resources for us 4.
+
+Occasionally, the sub-collaboration could create some structured outputs that would be shared publicly when they are more streamlined.
+
+----
+
 Joel Jakubovic
 <br/>8 November 2017
 
@@ -130,7 +157,7 @@ I don't know if we decided on opening issues for *all* discussion, but more for 
 ----
 
 Pavel Bažant
-<br/>9 November
+<br/>9 November 2017
 
 Ok, the sub-collaboration may be public, but it still makes sense IMHO to make it separate with separate goals etc.
 
