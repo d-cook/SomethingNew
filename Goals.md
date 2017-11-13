@@ -2,6 +2,8 @@
 
 *(TODO: Add goals gathered from materials listed in Resources.md)*
 
+*(TODO: Convert these to issues, too. Try to combine similar high-level concepts (or add to existing issues), instead of just creating a new issue for each bullet)*
+
 These are things we wish to accomplish with this (and related) project(s), or principles that we should follow to accomplish our goals.
 
 * Build a collection of relevent resources, goals, concepts, projects, etc.
