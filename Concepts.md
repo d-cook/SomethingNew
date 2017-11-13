@@ -40,11 +40,7 @@
 * Between ([LISP](https://en.wikipedia.org/wiki/Lisp_(programming_language))-like) [macros](https://en.wikipedia.org/wiki/Macro_(computer_science)#Syntactic_macros) & other programmatic transformations (macro
 
 #### Abolish Compiled Language
-* Think of uncompiled source code (written in a compiled-language) as a program that makes an executable program, and the compiler as the interpreter of that program. When viewed in this way, declarations within code (classes, functions, variables) act as *imperative commands* to create components of a program. Replacing these "commands" with an API & user-defined functions would allow programs to be generated with *any* components & mechanisms, rather than from a *fixed set* of "language features". No more language restrictions!
-* Example: `class Foo { Bar b }` becomes `myClass = MakeClass("Foo"); myClass.AddMember("b", myBarClass)`
-* Example: `myTrait = new MyVeryOwnTraitsImplementation("ResizableThing"); myTrait.ApplyTo(myClass)`?
-* This is what makes languages like JavaScript so powerful: many things that are "declarations" in other languages are actually imperative calls to user-defined functions. This is why people have been able to make so many different kinds of object-models (etc.) in it.
-* This makes things like compiler hooks and reflection mostly obsolete (see "Fewer 'kinds' of things" under "Less Restrictive")
+* *(Converted this to an issue: "[Replace Compilers with Code](https://github.com/d-cook/SomethingNew/issues/11)")*
 
 #### Avoid Restrictions
 * Related to "Respect the Human Model"
