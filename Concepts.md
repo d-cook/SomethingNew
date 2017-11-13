@@ -1,9 +1,7 @@
 **List of relevent concepts for designing relevant solutions**
 
-*(TODO: Add concepts gathered from materials listed in Resources.md)*
-
 #### Stepping Stones
-* *(Converted this to an [Issue](https://github.com/d-cook/SomethingNew/issues/7))*
+* *(Converted this to an issue: "[Stepping Stones](https://github.com/d-cook/SomethingNew/issues/7)")*
 
 #### Moldable Software
 * Software (tools) that can evolve or be reshaped into something new or different at will (by the end-user)
@@ -22,16 +20,7 @@
 * Software Archeology: self-contained system that makes its own bootstrapping & running self-evident: http://www.vpri.org/pdf/tr2015004_cuneiform.pdf
 
 #### Everything as Objects
-* Alan Kay: objects as a recursion of the notion of "computer"
-* Everything (code, data, UI, runtime) is made of nestable "objects" that can be inspected and modified in place
-* All objects are part of the same "object-tree", with the "root node" being the entire system
-* Work directly with intented model (structure) of things, rather than a *representation* of that structure
-  * Code is manipulated directly in [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) form, rather than [Parsed](https://en.wikipedia.org/wiki/Parsing#Computer_languages) from text
-  * Code can be generated & manipulated directly at runtime (by the user, or programmatically)
-* A universal tool can be used to view and edit everything, since it all shares a common representation
-* An AST structure can model both code & data, but also (for example) files & folders, or settings
-* Execution state of a program exists in some inspectable form. Can be paused, modifed, serialized, and resumed
-  * Actors that can be sent (or send themselves) across systems, and keep running afterward
+* *(Converted this to an issue: "[Structural Substrate](https://github.com/d-cook/SomethingNew/issues/9)")*
 
 #### Message Passing
 * Operations between objects (code) are all "messages"
