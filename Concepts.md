@@ -3,7 +3,7 @@
 *(TODO: Add concepts gathered from materials listed in Resources.md)*
 
 #### Stepping Stones
-*(Converted this to an [Issue](https://github.com/d-cook/SomethingNew/issues/7))*
+* *(Converted this to an [Issue](https://github.com/d-cook/SomethingNew/issues/7))*
 
 #### Moldable Software
 * Software (tools) that can evolve or be reshaped into something new or different at will (by the end-user)
