@@ -9,6 +9,8 @@ This collaboration formed in response to [VPRI](http://www.vpri.org/) deciding t
 
 Here it all is:
 
+* [Issues](https://github.com/d-cook/SomethingNew/issues) - We are using these for forum-like discussion, as well as to-do items
+
 * [Concepts](https://github.com/d-cook/SomethingNew/blob/master/Concepts.md) - Ideas about implementing stuff
 
 * [Goals](https://github.com/d-cook/SomethingNew/blob/master/Goals.md) - Various things that we hope to improve or achieve
@@ -17,4 +19,4 @@ Here it all is:
 
 * [Projects](https://github.com/d-cook/SomethingNew/blob/master/Projects.md) - These are our own projects related to our goals, and/or other related projects
 
-* [Discussion](https://github.com/d-cook/SomethingNew/tree/master/Discussion) - Forum-like discussion of topics, and past email-threads
+* [Emails](https://github.com/d-cook/SomethingNew/tree/master/Emails) - Past email-threads from which the initial creation & shared ideas for this collaboration began
