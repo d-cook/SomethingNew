@@ -3,11 +3,7 @@
 *(TODO: Add concepts gathered from materials listed in Resources.md)*
 
 #### Stepping Stones
-* "[Worse is Better"](https://www.dreamsongs.com/WorseIsBetter.html)
-* Bootstrap a minimal implementation from which something better can be made, rather than trying to create the perfect thing up-front
-  * Initial decision decisions don't matter much if they can be made easily (fluidly) changeable
-* Don't try to find the one "best" way / goal / etc., but instead nurture many alternative approaches
-* Experimenting with initial stepping stones (Alan Kay: "almost new") is a necessary prerequisite to discovering the "new" thing (Alan Kay: "New" vs "News")
+*(Converted this to an [Issue](https://github.com/d-cook/SomethingNew/issues/7))*
 
 #### Moldable Software
 * Software (tools) that can evolve or be reshaped into something new or different at will (by the end-user)
