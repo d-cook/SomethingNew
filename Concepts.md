@@ -13,11 +13,7 @@
 * "[Ultron](https://en.wikipedia.org/wiki/Ultron)": System that can re-compile itself to another platform. As this pattern is repeated, each compiler "comes with" because it is written in the language of the system
 
 #### Self-Defining
-* Abstract: Software entities define ("bootstrap") their own creation, language, UI, editor, etc. in a self-evident way
-  * Rather than depending on sepate things (IDE, compiler, editors, etc.)
-* Surprising that this is not already common, since the tool for making & editing software is ... ***software***
-* Bootstrapping: compiler/system that is written in "itself", and can redefine itself ("Moldable Software")
-* Software Archeology: self-contained system that makes its own bootstrapping & running self-evident: http://www.vpri.org/pdf/tr2015004_cuneiform.pdf
+* *(Converted this to an issue: "[Full Bootstrapping](https://github.com/d-cook/SomethingNew/issues/10)")*
 
 #### Everything as Objects
 * *(Converted this to an issue: "[Structural Substrate](https://github.com/d-cook/SomethingNew/issues/9)")*
