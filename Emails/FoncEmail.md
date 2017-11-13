@@ -328,8 +328,8 @@ I'm hoping that we can move forward by contributing information directly to topi
 I'm not suggesting that we replace all casual emails with this, but that any information & ideas we share or collaborate on be posted there instead of in emails, so that it can stick around and be expanded upon & discussed in an organized fashion that's easy to refer to.
 
 Note: read the following two emails that I have copied to SomethingNew for added context:
-https://github.com/d-cook/SomethingNew/blob/master/Discussion/PavelDanEmail.md
-https://github.com/d-cook/SomethingNew/blob/master/Discussion/JoelDanEmail.md
+https://github.com/d-cook/SomethingNew/blob/master/Emails/PavelDanEmail.md
+https://github.com/d-cook/SomethingNew/blob/master/Emails/JoelDanEmail.md
 
 ----
 
