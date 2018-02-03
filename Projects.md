@@ -9,6 +9,9 @@
 * Visual programming language and environment for doing data mapping
 between textual data files
 
+#### ["BootstrapLab"](https://github.com/jdjakub/BootstrapLab)
+* Visually bootstrap a self-sustaining system, and take it from there.
+
 ## Other Related Projects / Software:
 
 #### [Kano Computer Kit](https://kano.me/store/us/products/computer-kit)
