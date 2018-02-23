@@ -62,3 +62,6 @@
   * ["A Useful, Not Expedient, System"](http://www.madore.org/~david/computers/tunes.html)
   * ["Why a New Operating System?"](http://tunes.org/papers/WhyNewOS/WhyNewOS.html)
   * [Overview: "What is TUNES?"](http://tunes.org/overview.html)
+
+* [Toward a better programming](http://lighttable.com/2014/03/27/toward-a-better-programming/)
+(and other entries on this blog)
